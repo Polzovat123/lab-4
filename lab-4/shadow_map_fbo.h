@@ -17,8 +17,8 @@ public:
     void BindForReading(GLenum TextureUnit);
 
 private:
-    GLuint m_fbo; //указатель на текущий FBO
-    GLuint m_shadowMap; //указатель на текстуру, которая будет использована для прикрепления к DEPTH_ATTACHMENT
+    GLuint m_fbo;
+    GLuint m_shadowMap;
 };
 
 #endif /* SHADOWMAPFBO_H */

@@ -156,8 +156,8 @@ bool Mesh::InitMaterials(const aiScene* pScene, const std::string& Filename)
 
         // Загружаем белую текстуру если модель не имеет собственной
         // В этом уроке данный фукнционал - рудимент
-        /*if (!m_Textures[i]) {
-            m_Textures[i] = new Texture(GL_TEXTURE_2D, "C:/Users/vadim_25/Downloads/zen2.png");
+        /*if (!m_Textures[i]){
+            m_Textures[i] = new Texture(GL_TEXTURE_2D, "./white.png");
             Ret = m_Textures[i]->Load();
         }*/
     }
